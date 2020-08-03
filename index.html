@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresômetro</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/inputCompenents.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="box-menu"></div>
+    <!-- menu -->
+    <!-- <div class="menu-page"> -->
+        <div class="menu-container">
+            <div class="menu-item footer-big text-center"><img
+                    src="https://www.empresometro.com.br/Content/images/logo/logo-empresometro-azul.svg"
+                    style="margin-left: 20px" height="40px;" class="footer-logo-big"></div>
+            <div class="menu-item"></div>
+            <div class="menu-item footer-big text-center">Sobre</div>
+            <div class="menu-item footer-big text-center">Blog</div>
+            <div class="menu-item footer-big text-center">Dúvidas</div>
+            <div class="menu-item footer-big text-center">Contato</div>
+            <div class="menu-item"><button class="botao-laranja">Assine agora</button></div>
+        </div>
+    <!-- </div> -->
+    </div>
+    <!-- end menu -->
+
+    <!-- body-->
+    <div class="container-fluid">
+        <h1 class="texto-principal text-center">Seja bem vindo <br>ao Empresômetro</h1>
+        <h2 class="texto-secundario text-center">Dê os primeiros passos para aumentar suas vendas </h2>
+
+        <!-- <div class="imagem-fundo"></div> -->
+        <div class="container-fluid imagem-fundo">
+            <div class="form-pessoa-fisica">
+                <div class="form-container">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active texto-tab-active " id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">Pessoa física</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link texto-tab disabled" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">Pessoa jurídica</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <form>
+                                <div class="omrs-input-group">
+                                    <label class="omrs-input-underlined">
+                                        <input required>
+                                        <span class="omrs-input-label">CNPJ</span>
+                                    </label>
+                                </div>
+                                <div class="omrs-input-group">
+                                    <label class="omrs-input-underlined">
+                                        <input required>
+                                        <span class="omrs-input-label">Nome Compelto</span>
+                                    </label>
+                                </div>
+                                <div class="omrs-input-group">
+                                    <label class="omrs-input-underlined">
+                                        <input required>
+                                        <span class="omrs-input-label">Cargo/Ocupação</span>
+                                    </label>
+                                </div>
+                                <div class="omrs-input-group">
+                                    <label class="omrs-input-underlined">
+                                        <input required>
+                                        <span class="omrs-input-label">Celular</span>
+                                    </label>
+                                </div>
+                                <div class="omrs-input-group">
+                                    <label class="omrs-input-underlined">
+                                        <input required>
+                                        <span class="omrs-input-label">E-mail</span>
+                                    </label>
+                                </div>
+                                <div class="omrs-input-group">
+                                    <label class="omrs-input-underlined">
+                                        <input type="password" name="" id="iconeOlho" required>
+                                        <span class="omrs-input-label">Senha</span>
+                                        <i class="far fa-eye" style="cursor: pointer;" onclick="changeInputType()"></i>
+                                    </label>
+                                </div>
+                                <label class="texto-checkbox"><input type="checkbox" class="checkbox-margin" aria-label="Checkbox for following text input">Desejo receber ofertas por e-mail</label>
+                                <label class="texto-checkbox"><input type="checkbox" class="checkbox-margin" aria-label="Checkbox for following text input">Eu li e concorddo com o <a href="#">termo de uso e condições</a></label>
+                            </form>                            
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">testeeeeee
+                        </div>                        
+                    </div>
+                    <button class="botao-laranja float-right" style="margin-top: 40px;">Avançar</button>
+                </div>                
+
+            </div>
+        </div>
+    </div>
+    <!-- end body-->
+
+    <!-- footer-->
+    <div class="footer-page">
+        <div class="footer-container">
+            <div class="footer-item footer-big text-center" style="margin-left: 20px;">Empresômetro</div>
+            <div class="footer-item footer-big text-center">Digital</div>
+            <div class="footer-item footer-big text-center">Institucional</div>
+            <div class="footer-item footer-big text-center">Contatos</div>
+            <div class="footer-item "></div>
+            <div class=" footer-icon"><i class="fab fa-facebook-square"></i></div>
+            <div class=" footer-icon"><i class="fab fa-linkedin-in"></i></div>
+            <div class=" footer-icon"><i class="fab fa-instagram"></i></div>
+            <div class=" footer-icon"><i class="fab fa-youtube"></i></div>
+            <div class="footer-item "></div>
+        </div>
+    </div>
+    </div>
+    <!-- end footer-->
+    <script src="js/home.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
