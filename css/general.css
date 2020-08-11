@@ -1,5 +1,6 @@
 
 /* menu */
+@media screen and (min-width: 1301px) {
 .box-menu {
     z-index: 1 !important;    
     background: rgb(0,102,252);
@@ -14,6 +15,27 @@
     border-bottom-right-radius: 23%;
     border-bottom-left-radius: 45%;
     border: 1px solid transparent;
+}
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .box-menu {
+        z-index: 1 !important;    
+        background: rgb(0,102,252);
+        background: linear-gradient(90deg, rgba(0,102,252,1) 0%, rgba(7,65,167,1) 100%);
+        position: fixed;
+        height: 300px;
+        width: 58%;
+        margin-top: 0px;
+        top: -195px;
+        right: -2px;
+        z-index: -1;
+        border-bottom-right-radius: 23%;
+        border-bottom-left-radius: 45%;
+        border: 1px solid transparent;
+    }
 }
 
 .menu-container {
@@ -102,7 +124,7 @@
  .texto-principal {    
     padding-top: 120px;     
     font-family: 'Roboto', sans-serif;
-    font-size: 44px;
+    font-size: 34px;
     color: #555555;
     font-weight: 900;
  }
@@ -111,7 +133,7 @@
     padding-top: 20px;  
     padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #bbbbbb;
     font-weight: 700;
  }
